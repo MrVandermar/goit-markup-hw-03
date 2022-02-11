@@ -192,9 +192,15 @@ body {
 .footer-contacts:focus {
   color: var(--accent-color);
 }
-.footer-contacts:first-child {
-  margin-bottom: 9px;
+.footer-item + .footer-item {
+  margin-top: 9px;
 }
+/* .footer-list:first-child {
+  margin-bottom: 9px; */
+
+/* .footer-contacts:last-child {
+  margin-bottom: 0; */
+/* } */
 
 /* герой */
 
@@ -387,9 +393,10 @@ body {
 .project-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-.project-item:nth-child(-n + 3) {
+.project-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }
+
 .project-info {
   padding-top: 20px;
   padding-bottom: 20px;

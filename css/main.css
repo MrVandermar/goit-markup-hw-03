@@ -61,20 +61,20 @@ body {
 }
 /* падинги для секций */
 
-.dignity-main,
-.our-team-main,
-.button-main {
+.our-dignity-section,
+.our-team-section,
+.projects-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.our-work-main {
+.our-work-section {
   padding-bottom: 94px;
 }
 
-.footer-main {
+/* .footer-main {
   padding-top: 60px;
   padding-bottom: 60px;
-}
+} */
 .header-main {
   display: flex;
   justify-content: space-between;
@@ -84,6 +84,8 @@ body {
 
 .header {
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /* логотип */
@@ -165,6 +167,8 @@ body {
 /* навигация футер */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--background-second-color);
 }
 .logo-footer {
@@ -340,6 +344,7 @@ body {
 
 .our-team-position {
   margin-top: 0px;
+  margin-bottom: 0;
 
   font-size: 16px;
   text-align: center;
@@ -419,6 +424,7 @@ body {
 }
 .project-text {
   margin-bottom: 0;
+  margin-top: 0;
 
   color: var(--information-text-color);
   font-size: 16px;
